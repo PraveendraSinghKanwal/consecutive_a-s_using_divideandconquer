@@ -46,4 +46,4 @@ def analyze_string(lst:list):
 input_string= input('enter your string.. ')
 result_dictionary=analyze_string(input_string)
 final_result=result_dictionary['highest_a_count']
-print('''length of the longest sequence of consecutive'a' within the string is.. ''',final_result)
+print('''length of the longest sequence of consecutive'a' within the string is ''',final_result)
